@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72910b76-82d0-4a2a-9618-e039a3ecf732" name="Changes" comment="5 урок">
-      <change afterPath="$PROJECT_DIR$/1page.html" afterDir="false" />
-    </list>
+    <list default="true" id="72910b76-82d0-4a2a-9618-e039a3ecf732" name="Changes" comment="5 урок" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +80,7 @@
       <workItem from="1680260843819" duration="71000" />
       <workItem from="1680260915932" duration="2229000" />
       <workItem from="1680499845838" duration="988000" />
+      <workItem from="1681111511030" duration="105000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление структуры и заголовков">
       <created>1679387996098</created>

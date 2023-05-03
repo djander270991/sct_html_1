@@ -1,61 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
- .left{
-    float: left;
-width: 33%; 
-margin: 0 10px 5px 0;
-  text-align: center;
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
 
 }
-.center{
-    float: left;
-width: 33%; 
-margin: 0 10px 5px 0;
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
   text-align: center;
-
-
+  padding: 14px 16px;
+  text-decoration: none;
 }
-.right{
-    float: right;
-width: 33%; 
-margin: 0 10px 5px 0;
-  text-align: center;
 
-
+.dropdown {
+  float: left;
+  overflow: hidden;
 }
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
   
-.page {width: 700px;
-  border: 2px solid #fff;
-
-    
-    padding: 35px 25px;
-     color: aliceblue;
-
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
 }
-body{ background-color: black;
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
 }
-    </style>
-    <title>Document</title>
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:grey;
+  min-width: 230px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
 </head>
 <body>
-   <div class="page">
-    <div class="left">1.Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-     Quas quis minus est quaerat animi ab eos beatae 
-     delectus nam repellat obcaecati, 
-    iure quidem dolore laboriosam ea non culpa excepturi impedit.</div>
-<div class="center">2.Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-    Quas quis minus est quaerat animi ab eos beatae 
-    delectus nam repellat obcaecati, 
-   iure quidem dolore laboriosam ea non culpa excepturi impedit.</div>
- <div class="rigt">3.Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-     Quas quis minus est quaerat animi ab eos beatae 
-     delectus nam repellat obcaecati, 
-    iure quidem dolore laboriosam ea non culpa excepturi impedit.</div>
+<div class="navbar">
+  <a href="#">Home</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">About 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">About US</a>
+      <a href="#">Our Stores</a>
+      <a href="#">Contact US</a>
+    </div>
+  </div> 
+  <a href="#">NEW</a>
+  <a href="#">SALE</a>
+  <a href="#">Clothes</a>
 </div>
+
+
+
 </body>
 </html>
