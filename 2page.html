@@ -5,34 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        table{
-padding: 10px;
-        }
-  .style{
-
-   background-color: blue;
-    border: 5px solid orange;
-   color:orange;
-    border-radius: 50%;
-
-
+  .block.block{
+    position: absolute;
+    width: 200px;
+    height: 200px;
   }
-  td{
-    padding: 20px;
-    margin: 20px;
-}
+  .block-1{
+    left: 30px;
+    top: 30px;
+    background-color:red ;
+    z-index: 2;
+  }
+  .block-2{
+    background-color: blue;
+    left: 150px;
+    top: 150px;
+  }
+  .block-3{
+    background-color:aquamarine;
+    left: 270px;
+    top: 270px;
+    z-index: 3;
+  }
     </style>
     <title>Document</title>
 </head>
 <body>
-   <div>
-    <table align="center" >
-        <td>1</td>
-        <td>2</td>
-        <td class="style">3</td>
-        <td>4</td>
-        <td>5</td>
-    </table>
-   </div>
+  <div class="block">
+    <div class="block block-1"></div>
+    <div class="block block-2"></div>
+    <div class="block block-3"></div>
+  </div>
 </body>
 </html>

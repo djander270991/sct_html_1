@@ -7,66 +7,70 @@
     <style>
       .fon{ 
         position: absolute;
-        width:100%;
-        height: 100%;
-        
-      margin-block: 0;
+        width:910px;
+        height: 800px;       
+        margin: 0;
+        left:20%;
+        padding:2px;
       }
       .fon .out{
-        width: 100px;
-       
+          width: 80px;     
         position: absolute;
         
       }
       .outBlock-1{
-        top: 75px;
+        top: 10%;
         left: 0;
         text-align: right;
       }
       .outBlock-2{
-        top: 425px;
+        top: 47%;
         left: 0;
         text-align: right;
       }
       .outBlock-3{
-        top: 750px;
-        left: 0;
+        bottom: 20%;
+        left:0;
         text-align: right;
       }
       .outBlock-4{
-        top: 30px;
-        left: 45%;
+        top: 3%;
+        left: 46%;
         text-align: center;
       
       }
       .outBlock-5{
-        top: 75px;
-        right: 45px;
+        top: 10%;
+        right: 0;
         
       
       }
       .outBlock-6{
-        top: 425px;
-        right: 45px;
+      right: 0;
+        top: 47%;
        
       }
       .outBlock-7{
-        top: 750px;
-        right: 45px;
+        bottom: 20%;
+        right: 0;
         
       }
     .red{
       position: absolute;
-      width: 25px;
-      height: 25px;
+      width: 20px;
+      height: 20px;
       background-color: red;
+      left: 9%;
+      top: 6%;
+      z-index: 2;
 
     }
-    .podpis{
+    .logo{
       position: absolute;
-      width: 250px;
-      height: 25px;
-     
+      height: 55px;
+      right:0;
+      bottom:0 ;
+      font-size: 40px;
 
     }
 
@@ -75,7 +79,7 @@
             background-color: rgb(253, 255, 184);
             width: 80%;
             height: 80%;
-            left: 100px;
+            left: 9%;
             top: 50px;  
            margin: 5px;
            border: 4px solid black;           
@@ -84,20 +88,14 @@
        position:absolute;
         height: 100px;
         width: 100px;
-        border-style: dashed;
-        border-color: black;
-        border:1px;
-        
+              
       }
       .block-1{
         left: 0px;
         top: 0px;
         background-color: green;
       }
-      .block-5-2{
-        left: 55%;
-        top: 45%;
-      }
+     
       .block-2{
         left: 0px;
         top: 45%;
@@ -118,13 +116,19 @@
         top: 45%;
         background-color: green;
       }
+      .block-5-2{
+        left: 60%;
+        top: 48%;
+      }
       .block-6{
+        height: 38px;
         left: 45%;
         bottom:0px;
         background-color: green;
       }
       .block-6-2{
-            left: 55%;
+        height: 38px;
+            left: 60%;
         bottom:0px;
       }
       .block-7{
@@ -157,7 +161,7 @@
     <div class="out outBlock-6">100% 50%<br>right</div>
     <div class="out outBlock-7">100% 100% <br>right bottom</div>
     <div class="red"></div>
-    <div class="podpis"></div>
+    <div class="logo">KtoNaNovenkogo.ru</div>
   <div class="parent">
         <div class="block block-1"></div>
                <div class="block block-2"></div>
@@ -165,8 +169,7 @@
         <div class="block block-4"></div>
         <div class="block block-5"></div>
         <div class="block block-5-2">
-          <p>50% 50%</p>
-        <p>center</p>
+          50% 50% <br> center
         </div>
         <div class="block block-6"></div>
         <div class="block block-6-2">
