@@ -1,67 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-th{
-    background-color: rgb(87, 85, 85);
-    color: white;
-}
-.color1{
-    background-color:rgb(71, 209, 209);
-}
-.color2{
-    background-color: rgb(238, 219, 113);
-}
+        .head{
+            position: relative;
+            border-radius: 50%;
+            background-color: rgba(0, 255, 145, 0.668);
+            height: 500px;
+            width: 500px;
+            left: 200px;
+            top: 100px;
+        }
+        .eyes-1{
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: white;
+            left:100px;
+            top: 100px;
+        }
+        .eyes-2{
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: white;
+            right:100px;
+            top: 100px;
+        }
+        .nose{
+            position: absolute;
+            width: 76px;
+            height: 76px;
+            background-color: white;
+            left:214px;
+            top: 214px;
+
+        }
+        .mouse{
+            position: absolute;
+            background-color: white;
+            width:200px;
+            height: 20px;
+            left: 150px;
+            bottom: 100px;
+
+        }
     </style>
-    <title>Первая страница</title>
+    <title>Document</title>
 </head>
-
 <body>
-    <table border="1" cellspacing ="0">
-        <tr>            
-            <th>Название</th>
-            <th>Цвет</th>
-            <th>Твердость по Моосу</th>
-            <th>Формула</th>
-        </tr>
-        <tr>
-            <td class="color1">Алмаз</td>
-            <td class="color2">Белый</td>
-            <td class="color1">10</td>
-            <td class="color2">C</td>
-           
-        </tr>
-            <tr>
-            <td class="color1">Рубин</td>
-            <td class="color2">Красный</td>
-            <td class="color1">9</td>
-            <td class="color2">Al₂O₃</td>
-           
-        </tr>  
-        <tr class="gena">
-            <td class="color1">Аметист</td>
-            <td class="color2">Голубой</td>
-            <td class="color1">7</td>
-            <td class="color2">SiO₂</td>
-           
-        </tr>
-        <tr>
-            <td class="color1">Изумру</td>
-            <td class="color2">Зеленый</td>
-            <td class="color1">8</td>
-            <td class="color2">Be₃Al₂(SiO₃)₆</td>
-           
-        </tr>
-        <tr>
-            <td class="color1">Сапфир</td>
-            <td class="color2">Голубой</td>
-            <td class="color1">9</td>
-            <td class="color2">Al₂O₃</td>
-           
-        </tr>
-    </table>
+    <div class="head">
+        <div class="eyes-1"></div>
+        <div class="eyes-2"></div>
+        <div class="nose"></div>
+        <div class="mouse"></div>
+    </div>
 </body>
-
 </html>
